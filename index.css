@@ -1,0 +1,308 @@
+body{
+	margin: 0px;
+	background: #dddddd;
+}
+
+#container{
+	width: 100vw;
+	height: 500px;
+	background-image: url(https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478040.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+#navbar{
+	width: 100vw;
+	height: 50px;
+	background: ;
+	display: flex;
+}
+#fnav{
+	width: 20vw;
+	height: 50px;
+	background: ;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#snav{
+	width: 60vw;
+	height: 50px;
+	background: ;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	font-size: 12px;
+}
+.lnk{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+}
+#tnav{
+	width: 20vw;
+	height: 50px;
+	background: ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+#paragraph{
+	width: 50vw;
+	height: 220px;
+	background: ;
+	margin-left: 350px;
+	margin-top: 100px;
+	color: white;
+}
+#button{
+	width: 120px;
+	height: 35px;
+	background: ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid white;
+	padding: 2px;
+	border-radius: 10px;
+}
+#searchinput{
+	width: 70vw;
+	height: 60px;
+	background: rgb(13,11,80);
+    background: linear-gradient(90deg, rgba(13,11,80,1) 0%, rgba(29,191,253,1) 74%);
+	border-radius: 5px;
+	position: relative;
+	top: -35px;
+
+}
+.ri-bnb-fill{
+	color: white;
+}
+.ri-search-line{
+	display: flex;
+	color: skyblue;
+	gap: 20px;
+	font-size: 30px;
+	justify-content: left;
+	padding-top: 12px;
+	padding-left: 15px;
+}
+#lifestyle{
+	width: 70vw;
+	height: 110px;
+	background: ;
+	display: flex;
+	align-items: center;
+	margin-left: 174px;
+}
+#first{
+	width: 70vw;
+	height: 110px;
+	padding-top: 100px;
+}
+#second{
+	width: 30vw;
+	height: 110px;
+	padding-top: 100px;
+}
+#boating{
+	width: 100vw;	
+	height: 250px;
+	background: ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.island{
+	width: 250px;
+	height: 250px;
+	background: ;
+	background-image: url(https://assets.basspro.com/image/upload/f_auto,q_auto/v1668020838/DigitalCreative/2022/Dept-Pages/Boating/BPS/083120-Boating-Sale.jpg);
+	background-size: cover;
+	display: flex;
+}
+#recommended{
+	width: 70vw;
+	height: 110px;
+	background: ;
+	display: flex;
+	align-items: center;
+	margin-left: 174px;
+}
+#tours{
+	width: 70vw;
+	height: 110px;
+	padding-top: 100px;
+}
+#activities{
+	width: 30vw;
+	height: 110px;
+	padding-top: 100px;
+}
+#jamesbond{
+	width: 100vw;
+	height: 290px;
+	background: ;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.richaisland{
+	width: 250px;
+	height: 300px;
+	background: ghostwhite;
+	-webkit-box-shadow: 11px 10px 30px 3px rgba(0,0,0,0.37);
+-moz-box-shadow: 11px 10px 30px 3px rgba(0,0,0,0.37);
+box-shadow: 11px 10px 30px 3px rgba(0,0,0,0.37);
+}
+.offers{
+	width: 250px;
+	height: 180px;
+	background: ;
+	background-image: url(https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qgtdfc1d6md30ij14ikj/Krabi4IslandsDayTour-KlookIndia.jpg);
+	background-size: cover;
+}
+#islandtour{
+	width: 100vw;
+	height: 290px;
+	background: ;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 50px;
+}
+.islandgroup{
+	width: 250px;
+	height: 300px;
+	background:  ghostwhite;
+	-webkit-box-shadow: 11px 10px 30px 3px rgba(0,0,0,0.37);
+-moz-box-shadow: 11px 10px 30px 3px rgba(0,0,0,0.37);
+box-shadow: 11px 10px 30px 3px rgba(0,0,0,0.37);
+}
+.touroffer{
+	width: 250px;
+	height: 180px;
+	background: ;
+	background-image: url(https://www.weseektravel.com/wp-content/uploads/2023/09/pileh-lagoon-phi-phi-island-tour-1-1024x768.jpg);
+	background-size: cover;
+}
+#assistance{
+	width: 100vw;
+	height: 350px;
+	background: green;
+	display: flex;
+	margin-top: 80px;
+	background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230714/pngtree-top-view-of-tropical-summer-background-with-minimalist-swimming-pool-and-image_3889248.jpg);
+}
+#needhelp{
+	width: 65vw;
+	height: 280px;
+	z-index: 999;
+	color: white;
+	padding-top: 70px;
+}
+#trip{
+	padding-left: 70vw;
+}
+.banner-heading{
+	margin-left: 190px;
+}
+#overlay{
+	width: 100vw;
+	height: 350px;
+	background: black;
+	opacity: 0.7;
+	z-index:1;
+}
+#overlay-2{
+	width: 100vw;
+	height: 500px;
+	background: black;
+	opacity: 0.7;
+}
+#heading-2{
+	width: 70vw;
+	height: 80px;
+	background: ;
+	display: flex;
+	align-items: center;
+	margin-left: 174px;
+}
+#latest{
+	width: 30vw;
+	height: 80px;
+	padding-left: 10px;
+	background: ;
+}
+#packages{
+	width: 70vw;
+	height: 80px;
+	padding-left: 50px;
+	padding-top: 60px;
+}
+.link{
+	text-decoration: none;
+	padding: 0px 5px;
+	color: grey;
+}
+.link:hover{
+	color: deepskyblue;
+}
+.ri-arrow-left-wide-line:hover{
+	width: 50px;
+	background: skyblue;
+}
+.ri-arrow-right-wide-line:hover{
+	width: 50px;
+	background: skyblue;
+}
+#startprice{
+	width: 2px;
+	height: 55px;
+	background: black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 60px;
+}
+#itsworks{
+	width: 100vw;
+	height: 100px;
+	background: ;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+#logo{
+	width: 250px;
+	height: 100px;
+	background: ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.under{
+	text-decoration: none;
+}
+.ssb{
+	width: 250px;
+	height: 100px;
+	background: ;
+}
+.ri-survey-fill{
+	font-size: 30px;
+	color: deepskyblue;
+	position: absolute;
+	padding-top: 40px;
+}
+
+
+
+
